@@ -1,0 +1,105 @@
+@media (max-width: 990px){
+    .nav-item{
+        display:none;
+    }
+    .menu-icon{
+        display: inline;
+    }
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-icon i{
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .shows-one-description-p{
+        font-size: 11px;
+    }
+
+
+    .banner-left-content h1{
+        font-size: 30px;
+    }
+    .banner-left-content h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 760px){
+    .section-two-items{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .showes-items{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+    }
+    .shows-one-description-p{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 560px){
+    .banner-right-content{
+        display: none;
+    }
+    .banner-left-content{
+        width: 100%;
+    }
+    .banner-left-content h1{
+        font-size: 25px;
+    }
+    .banner-left-content p{
+        font-size: 15px;
+    }
+    .banner-left-content h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-two-items{
+        grid-template-columns: 1fr;
+    }
+
+    .showes-items{
+        grid-template-columns: 1fr;
+    }
+    .contact-section-content h1{
+        font-size: 20px;
+        font-weight: 500px;
+    
+    }
+    .contact-section-content p{
+        margin: 10px 0px;
+        font-size: 15px;
+    
+    }
+    .contact-section-content input {
+        font-size: 10px;
+        padding: 8px 20px;
+        border: 0px solid;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .contact-section-content button{
+        font-size: 15px;
+        padding: 7px 10px;
+        border-radius: 10px;
+        border: solid;
+        margin-top: 20px;
+        color: #f8f9fa;
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    }
+    .footer{
+        text-align: center;
+        margin: 50px auto;
+        font-size: 10px;
+    }
+    
+}
