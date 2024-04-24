@@ -42,6 +42,11 @@
     .shows-one-description-p{
         font-size: 13px;
     }
+    .bag-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 25px;
+    }
 }
 
 
@@ -69,6 +74,11 @@
 
     .showes-items{
         grid-template-columns: 1fr;
+    }
+    .bag-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
     .contact-section-content h1{
         font-size: 20px;
